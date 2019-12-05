@@ -2,19 +2,24 @@
     min-width: 100px;
     margin: 16px;
     padding: 8px;
-    background-color: #afeeee;
+    background-color: #FFA07A;
     border: 1px solid grey;
-    border-radius: 6px;
+    border-radius: 15px;
     cursor: pointer;
+    transition: .3s;
 }
 
 .cart-button:hover {
-    background-color: #bfffff;
+    background-color: #ffba8b;
     border: 1px solid lightgray;
 }
 
 .cart-button:active {
-    background-color: #9edddd;
+    background-color: #ee0960;
+}
+
+.cart-button:focus {
+    outline: none;
 }
 
 .goods-list {
@@ -25,7 +30,7 @@
 
 .goods-list div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 16px;
     min-width: 160px;
     align-content: center;
@@ -33,9 +38,12 @@
 }
 
 .goods-list p {
-    
+    margin-left: 15px;
+    color: #fa8072;
+    font-size: 24px;
+    line-height: 12px;
 }
 
 .goods-list h3 {
-
+    margin-left: 15px;
 }
