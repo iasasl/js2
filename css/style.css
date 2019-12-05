@@ -5,9 +5,10 @@
 }
 
 .cart-button {
-    margin: 8px;
+    margin: 10px;
     padding: 8px;
     min-width: 100px;
+    font-size: 15px;
     background-color: #FFA07A;
     border: 1px solid grey;
     border-radius: 9px;
@@ -59,4 +60,5 @@
 .goods-list h3 {
     margin-left: 15px;
     font-size: 22px;
+    color: #434343;
 }
