@@ -19,7 +19,7 @@ renderGoodsList(goods);
 class GoodsList {
     constructor(id, amount) {
         this.id = id,
-        this.amount = amount,
+        this.amount = amount
     }
 
     countSum() {
