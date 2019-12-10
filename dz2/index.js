@@ -16,14 +16,21 @@ const renderGoodsList = (list) => {
 
 renderGoodsList(goods);
 
-class GoodList {
-    constructor(title, quantity, price) {
-        this.title = title,
-        this.quantity = quantity,
-        this.price = price
+class GoodsList {
+    constructor(id, amount) {
+        this.id = id,
+        this.amount = amount,
     }
 
     countSum() {
         
+    }
+};
+
+class GoodsListItem {
+    constructor(title, quantity, price) {
+        this.title = title,
+        this.quantity = quantity,
+        this.price = price
     }
 }
