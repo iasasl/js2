@@ -102,3 +102,12 @@ body {
     width: 4vw;
     padding: 16px;
 }
+
+.error-no-data {
+    display: block;
+    margin: 0 auto;
+    font-size: 58px;
+    text-align: center;
+    font-weight: 500;
+    color: #bbb;
+}
