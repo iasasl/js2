@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>eShop</title>
+</head>
+<body>   
+    <header class="header">
+        <form action="#" class="header-search-form">
+            <input type="text" class="header-search-form-input">
+            <button class="header-search-form-button">Find</button>
+        </form>
+        <button class="cart-button">Basket</button>
+    </header> 
+    <div id="container">
+        <input type="text" v-model="search">
+        <div class="goods-list" v-if="goods.length">
+            <div class="goods-item" v-for="goodItem in goods">
+                <h3>{{ goodItem.name }}</h3>
+                <p>{{ goodItem.price }}&#8381;</p>
+            </div>
+        </div>
+        <div class="error-no-data" v-else>Нет данных</div>
+        <div class="basket-block">
+            <div class="basket-header">
+                <div class="basket-row">
+                    <span class="basket-item-parameter">name</span>
+                    <span class="basket-item-parameter">price</span>
+                    <span class="basket-item-parameter">quantity</span>
+                    <span class="basket-item-parameter">amount</span>
+                </div>
+            </div>
+            <div class="basket-container">
+                <div class="basket-row">
+                    <span class="basket-item-parameter">test</span>
+                    <span class="basket-item-parameter">test</span>
+                    <span class="basket-item-parameter">test</span>
+                    <span class="basket-item-parameter">test</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
