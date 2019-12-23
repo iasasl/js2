@@ -77,3 +77,28 @@ body {
     font-size: 22px;
     color: #434343;
 }
+
+.basket-block {
+    position: fixed;
+    right: 5%;
+    bottom: 25%;
+}
+
+.basket-header {
+    border: solid 3px #fa8072;
+    text-transform: uppercase;
+}
+
+.basket-container {
+    border: solid 2px #ddd;
+    border-top: none;
+}
+
+.basket-row {
+    display: flex;
+}
+
+.basket-item-parameter {
+    width: 4vw;
+    padding: 16px;
+}
