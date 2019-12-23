@@ -21,7 +21,4 @@ const app = new Vue({
             goods.filter(item => item.match(searchRequest));
         },
     },
-    methods: {
-        
-    },
 });
